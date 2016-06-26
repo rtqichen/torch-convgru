@@ -35,7 +35,6 @@ where i = t mod r.
 
 Weights are penalized by p*| Avg - Weight | where Avg is the
 average of the weights and p is a penalty coefficient.
-!! This penalty is not yet implemented.
 --]]
 function layer:__init(input_dim, hidden_dim, kW, kH, hidden_downscale, relaxation, relaxationPenality)
     parent.__init(self)
